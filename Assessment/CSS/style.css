@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#wrapper{
+    display:grid;
+    grid-template-areas: "header header header header" "nav scroll scroll scroll" "nav nestedgrid nestedgrid nestedgrid" "footer footer footer footer" "end end end end";
+    
+}
+
+
+#header{
+     grid-area:header;
+    text-align:center;
+    background-color:rgb(180, 225, 225);
+    color:black;
+    font-family:"Playfair Display", serif;
+    border-bottom:20px solid rgb(150,200,210);
+  
+    
+}
+
+h1{
+    font-size:80px;
+    border: 5px solid lightgray;
+    font-size:50px;
+    padding:15px; 
+    margin:40px;
+    color:black;
+    font-family:"Nunito", sans-serif;
+    border-radius:30px;
+    background-color:whitesmoke;
+}
+
+h1:hover{
+    color:dimgray;
+    border:5px solid dimgray;
+}
+
+#nav{
+    grid-area:nav;
+    padding:22px;
+    width:200px;
+    background-color:white;
+    border-right:2px solid gray;
+    font-weight:bold;
+    border-left:2px solid gray;
+    font-family:"Nunito", sans-serif;
+    
+   
+}
+
+#scroll{
+    grid-area:scroll;
+    width:1000px;
+    text-align:center;
+
+}
+
+#nestedgrid{
+    grid-area:nestedgrid;
+    background-color:whitesmoke;
+    font-family:"Nunito", sans-serif;
+    line-height:30px;
+    display:grid;
+    grid-template-areas:"main main main"
+}
+
+#footer{
+    grid-area:footer;
+    background-color:rgb(70,150,180);
+    color:white;
+    text-align:center;
+    padding:50px;
+    font-weight:bold; 
+    font-family:"Nunito", sans-serif;
+}
+
+#end{
+    grid-area:end;
+    background-color:rgb(150,200,210);
+    padding:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+#main{
+    grid-area:main;
+    text-align:left;
+    width:770px;
+    padding-right:50px;
+    padding-left:50px;
+    padding-bottom:50px;
+    background-color:rgb(180,220,235);
+    border:2px solid darkgray;
+    border-top:15px solid rgb(70,150,180);
+    margin-left:50px;
+}
+
+
+
+.link{
+    text-decoration:none;
+    color:black;
+    padding:4px;
+    
+    
+}
+
+.link:hover{
+    background-color:lightgray;
+    border-left:5px solid rgb(70,150,180);
+    color:dimgray;
+    text-decoration:none;
+    
+}
+
+p{
+    margin-top:none;
+   text-align:center;
+    padding:15px;
+    
+     background-color:rgb(70,150,180);
+    color:white;
+    
+    
+}
+
+p:hover{
+    background-color:darkgray;
+    color:white;
+    border-top:3px solid dimgray;
+    border-bottom:3px solid dimgray;
+}
+
+.rebecca{
+    width:6%;
+    margin-left:250px;
+    border-radius:5px;
+    
+}
+
+h2{
+    text-align:center;
+    text-decoration:underline overline;
+}
+
+.copyright{
+    width:1%;
+        margin-right:3px;
+}
+
+h4{
+    text-align:left;
+    font-weight:normal;
+}
+
+li{
+    font-weight:normal;
+}
+
+#what{
+    border-top:3px solid gray;
+}
+
+.kittens{
+    width:998px;
+    border:3px solid gray;
+    margin:none;
+    padding:none;
+    border-radius:none;
+}
+
+
+
+#what:hover{
+    border-top:3px solid rgb(70,150,180);
+}
+
+#main h3{
+    font-weight:normal;
+    background-color:none;
+    text-decoration:none;
+}
+
+h3{
+    background-color:white;
+    border-left:5px solid rgb(70,150,180);
+    color:dimgray;
+    text-decoration:none;
+    padding:3px;
+    text-align: center;
+}
+
+h3:hover{
+     border-left:5px solid black;
+    background-color:gray;
+    color:white;
+    padding:5px;
+
+}
+    
+}
+
+
+
+.outlook{
+    width:4%;
+    border-radius:10px;
+}
+
+.outlook:hover{
+    border:3px solid gray;
+
+}
+
+.gmail{
+    width:4%;
+    margin-left:20px;
+    border-radius:10px;
+}
+
+.gmail:hover{
+    border:3px solid gray;
+}
+
+
+.hope{
+    width:40%;
+    margin-left:50px;
+    border:3px solid gray;
+    
+}
+
+.sun{
+    width:40%;
+    margin-left:20px;
+    border:3px solid gray;
+}
+
+.scrollable{
+    width: 1000px;
+    height: 600px;   
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 1em;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+
+em{
+    font-style:normal;
+    font-weight:bold;
+    text-decoration:underline;
+    
+}
